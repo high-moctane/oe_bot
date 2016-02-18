@@ -1,0 +1,18 @@
+GIT
+  remote: git@github.com:high-moctane/open_esys-oruka.git
+  revision: 59d3aaaaa7010b356d7989f1105b6e6a9c0491f6
+  specs:
+    open_esys-oruka (0.0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  open_esys-oruka!
+
+BUNDLED WITH
+   1.11.2

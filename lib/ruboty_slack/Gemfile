@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem "ruboty"
+gem "ruboty-slack"
+
+gem "ruboty-fire_penguin", :git => "https://github.com/high-moctane/ruboty-fire_penguin.git"
+gem "ruboty-open_esys_oruka", :git => "git@github.com:high-moctane/ruboty-open_esys_oruka.git"
