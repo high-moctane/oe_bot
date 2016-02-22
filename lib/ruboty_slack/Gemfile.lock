@@ -1,10 +1,4 @@
 GIT
-  remote: git@github.com:high-moctane/ruboty-open_esys_oruka.git
-  revision: ad9a049eb66f8f2481baa29a1deedfa065257943
-  specs:
-    ruboty-open_esys_oruka (0.0.0.2)
-
-GIT
   remote: https://github.com/high-moctane/ruboty-fire_penguin.git
   revision: 1fb821492dc86793c1dbf2d59c4ad61c6d1f1a30
   specs:
@@ -46,7 +40,6 @@ PLATFORMS
 DEPENDENCIES
   ruboty
   ruboty-fire_penguin!
-  ruboty-open_esys_oruka!
   ruboty-slack
 
 BUNDLED WITH

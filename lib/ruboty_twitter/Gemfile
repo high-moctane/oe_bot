@@ -1,7 +1,9 @@
 source "https://rubygems.org"
 
 gem "ruboty"
-# gem "rb-readline"
-gem "ruboty-twitter"
+gem "ruboty-twitter", :git => "https://github.com/high-moctane/ruboty-twitter.git"
+
+gem "ruboty-cron"
 
 gem "ruboty-fire_penguin", :git => "https://github.com/high-moctane/ruboty-fire_penguin.git"
+gem "ruboty-open_esys_oruka", :git => "https://github.com/high-moctane/ruboty-open_esys_oruka.git"

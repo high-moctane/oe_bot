@@ -4,6 +4,16 @@ GIT
   specs:
     ruboty-fire_penguin (0.0.3)
 
+GIT
+  remote: https://github.com/high-moctane/ruboty-twitter.git
+  revision: 778b71ae30b510fa5618433d55f108a38a8817ee
+  specs:
+    ruboty-twitter (0.0.8)
+      activesupport
+      mem
+      ruboty
+      twitter (>= 5.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -15,6 +25,8 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     buftok (0.2.0)
+    chrono (0.3.0)
+      activesupport
     domain_name (0.5.20160128)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.1.0)
@@ -38,18 +50,16 @@ GEM
     minitest (5.8.4)
     multipart-post (2.0.0)
     naught (1.1.0)
-    rb-readline (0.5.3)
     ruboty (1.2.2)
       activesupport
       bundler
       dotenv
       mem
       slop
-    ruboty-twitter (0.0.8)
+    ruboty-cron (1.1.0)
       activesupport
-      mem
-      ruboty
-      twitter (>= 5.0.0)
+      chrono
+      ruboty (>= 0.2.0)
     simple_oauth (0.3.1)
     slop (4.2.1)
     thread_safe (0.3.5)
@@ -74,10 +84,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rb-readline
   ruboty
+  ruboty-cron
   ruboty-fire_penguin!
-  ruboty-twitter
+  ruboty-twitter!
 
 BUNDLED WITH
    1.11.2

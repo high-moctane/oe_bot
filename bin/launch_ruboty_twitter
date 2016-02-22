@@ -1,0 +1,13 @@
+#!/bin/bash
+
+trap 'kill $(jobs -p)' EXIT
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+my_path=`dirname $0`
+cd ${my_path}/../lib/ruboty_twitter
+
+rbenv exec bundle exec ruboty --dotenv &
+
+wait
+
