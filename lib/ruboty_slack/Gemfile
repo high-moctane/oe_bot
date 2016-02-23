@@ -4,6 +4,9 @@ gem "ruboty"
 gem "ruboty-slack"
 
 gem "ruboty-cron"
+gem "ruboty-echo"
+gem "ruboty-alias"
+gem "ruboty-mstr"
 
 gem "ruboty-fire_penguin", :git => "https://github.com/high-moctane/ruboty-fire_penguin.git"
 gem "ruboty-open_esys_oruka", :git => "https://github.com/high-moctane/ruboty-open_esys_oruka.git"
