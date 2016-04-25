@@ -56,10 +56,16 @@ GEM
       dotenv
       mem
       slop
+    ruboty-alias (0.0.8)
+      ruboty (>= 1.1.1)
     ruboty-cron (1.1.0)
       activesupport
       chrono
       ruboty (>= 0.2.0)
+    ruboty-echo (0.1.0)
+      ruboty
+    ruboty-mstr (1.0.1)
+      ruboty
     simple_oauth (0.3.1)
     slop (4.2.1)
     thread_safe (0.3.5)
@@ -85,8 +91,11 @@ PLATFORMS
 
 DEPENDENCIES
   ruboty
+  ruboty-alias
   ruboty-cron
+  ruboty-echo
   ruboty-fire_penguin!
+  ruboty-mstr
   ruboty-twitter!
 
 BUNDLED WITH

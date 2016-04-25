@@ -4,6 +4,12 @@ GIT
   specs:
     ruboty-fire_penguin (0.0.3)
 
+GIT
+  remote: https://github.com/high-moctane/ruboty-open_esys_oruka.git
+  revision: 2da20b0f6022e78c8456ae5db0ea1a4d617f537d
+  specs:
+    ruboty-open_esys_oruka (0.0.0.10)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -13,6 +19,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    chrono (0.3.0)
+      activesupport
     dotenv (2.1.0)
     i18n (0.7.0)
     json (1.8.3)
@@ -24,6 +32,16 @@ GEM
       dotenv
       mem
       slop
+    ruboty-alias (0.0.8)
+      ruboty (>= 1.1.1)
+    ruboty-cron (1.1.0)
+      activesupport
+      chrono
+      ruboty (>= 0.2.0)
+    ruboty-echo (0.1.0)
+      ruboty
+    ruboty-mstr (1.0.1)
+      ruboty
     ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
       xrc (>= 0.1.8)
@@ -39,7 +57,12 @@ PLATFORMS
 
 DEPENDENCIES
   ruboty
+  ruboty-alias
+  ruboty-cron
+  ruboty-echo
   ruboty-fire_penguin!
+  ruboty-mstr
+  ruboty-open_esys_oruka!
   ruboty-slack
 
 BUNDLED WITH
