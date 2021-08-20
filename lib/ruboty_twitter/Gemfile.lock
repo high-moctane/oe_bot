@@ -5,6 +5,12 @@ GIT
     ruboty-fire_penguin (0.0.3)
 
 GIT
+  remote: https://github.com/high-moctane/ruboty-open_esys_oruka.git
+  revision: ff9660be88f3f0d64762d818ee27fc8b54225884
+  specs:
+    ruboty-open_esys_oruka (0.1.2)
+
+GIT
   remote: https://github.com/high-moctane/ruboty-twitter.git
   revision: 778b71ae30b510fa5618433d55f108a38a8817ee
   specs:
@@ -23,7 +29,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.4.0)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     buftok (0.2.0)
     chrono (0.3.0)
       activesupport
@@ -50,6 +57,7 @@ GEM
     minitest (5.8.4)
     multipart-post (2.0.0)
     naught (1.1.0)
+    public_suffix (4.0.6)
     ruboty (1.2.2)
       activesupport
       bundler
@@ -96,6 +104,7 @@ DEPENDENCIES
   ruboty-echo
   ruboty-fire_penguin!
   ruboty-mstr
+  ruboty-open_esys_oruka!
   ruboty-twitter!
 
 BUNDLED WITH
